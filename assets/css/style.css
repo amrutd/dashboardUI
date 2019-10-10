@@ -202,9 +202,6 @@ ul.ulsubmenu1 li.nav-item{
 	margin: 0 7px 0 0; 
 }
 
-
-
-
 .recentViewList{
 	font-size: 14px;
 	padding: 10px 20px;
@@ -230,6 +227,13 @@ ul.ulsubmenu1 li.nav-item{
 	text-decoration: none;
 }
 
+.recentViewList a:hover{
+	color: var(--svgact-clr);
+}
+
+.recentViewList a:hover svg{
+	fill: var(--svgact-clr);
+}
 
 .nav-item .sidemenuIcon svg{
 	fill: var(--svg-clr); 
@@ -262,7 +266,7 @@ ul.ulsubmenu1 li.nav-item{
 
 
 .dLabelselect {
- min-width: 150px;
+ min-width: 135px;
  height: 40px;
  border-radius: 4px;
  background-color: var(--white-clr) ;
