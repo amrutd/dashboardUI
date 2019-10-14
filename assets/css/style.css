@@ -273,6 +273,7 @@ ul.ulsubmenu1 li.nav-item{
  border: solid 1px var(--border-clr) ;
  text-align: left;
  padding: 7px 12px;
+ font-size: 14px;
 }
 
 
@@ -436,3 +437,6 @@ td.progBox{
 	overflow-y: auto;
 }
 
+.pagename{
+	font-size: 16px;
+}
